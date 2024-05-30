@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background: no-repeat url(/src/img/samurai.jpg) var(--dark-gray-background-color);
+    background: no-repeat url(../img/samurai.jpg) var(--dark-gray-background-color);
     background-size: cover;
     background-position: top;
     font-family: var(--primary-font);
