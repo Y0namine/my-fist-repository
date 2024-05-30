@@ -1,0 +1,40 @@
+.skills .container-skills {
+    text-align: center;
+    justify-content: center;
+}
+
+.skills .container-skills .skill {
+    max-width: 350px;
+    padding: 40px 20px;
+}
+
+.skills .container-skills .skill p,
+.skills .container-skills .skill h3,
+.skills .container-skills .logo i {
+    transition: all 0.3s ease;
+}
+
+.skills .container-skills .skill:hover {
+    color: var(--primary-color);
+    text-shadow: 2px 2px 5px #000;
+    font-weight: 500;
+}
+
+.skills .container-skills .skill h3 {
+    color: var(--white-color);
+    text-shadow: 2px 2px 5px var(--primary-color);
+    font-size: var(--font-extra-large);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.skills .container-skills .skill p {
+    font-size: 2rem;
+    font-family: var(--secundary-font);
+}
+
+
+.skills .container-skills .skill i {
+    font-size: 8rem;
+    text-shadow: 2px 2px 5px var(--primary-color);
+}

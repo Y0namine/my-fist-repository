@@ -1,0 +1,50 @@
+.home .full-screem {
+    min-height: 86px;
+    padding: 50px 0;
+    justify-content: center;
+}
+
+.home .text-home {
+    letter-spacing: 2px;
+}
+
+.home .text-home {
+    max-width: 50%;
+    padding: 0 15px;
+}
+
+.home .text-home p {
+    font-size: var(--font-large);
+    margin-bottom: 10px;
+}
+
+.home .text-home h1 {
+    font-size: var(--font-extra-large);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.home .text-home h2 {
+    font-size: var(--font-large);
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.home .networks {
+    padding: 0 60px;
+}
+
+@media(max-width:1480px){
+    .home .networks {
+        padding: 0 100px;
+    }
+}
+
+@media(max-width:1280px) {
+    .home .text-home {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        padding: var(--mobile-padding);
+    }
+}
